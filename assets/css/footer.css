@@ -1,0 +1,46 @@
+footer{
+    background-color: rgb(158, 217, 252);
+
+}
+.contenedor{
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.bajo{
+    border: 1px solid yellow;
+    justify-content: center;
+}
+
+.contenido{
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.formulario{
+    border: 1px solid blue;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+.abajo{
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.abajo_centrar{
+    border: 1px solid red;
+}
+
+.abajo_descri{
+    margin-bottom: 0;
+}
+
+.abajo_anio{
+    margin: 5px 0 15px 0;
+}

@@ -1,0 +1,36 @@
+.cabecera{
+    display: flex;
+    align-items: center;
+}
+.cabecera__imagen{
+    width: 30px;
+}
+
+.cabecera__img{
+    width: 75%;
+}
+
+.negri{
+    font-weight: bold;
+}
+
+.celeste{
+    color: rgb(68, 185, 221);
+}
+
+.boton{
+    cursor: pointer;
+    border: 1px solid rgb(20, 125, 156);
+    padding: 10px 25px;
+}
+
+.pri{
+    background: rgb(20, 125, 156);
+    color: #fff;
+    
+}
+
+.sec{
+    background: #fff;
+    color: rgb(20, 125, 156);
+}
