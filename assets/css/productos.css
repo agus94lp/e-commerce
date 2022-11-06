@@ -1,0 +1,58 @@
+.productos{
+    background-color: #ddd;
+    padding-top: 20px;
+}
+
+.vista{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.fila__encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjetas{
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.ocultar{
+    display: none;
+}
+@media (min-width:868px){
+    .tarjetas{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1268px){
+    .tarjetas{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .ocultar{
+        display: block;
+    }
+}
+
+.tarjeta__producto{
+    color: #777;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.tarjeta__precio{
+    margin: 0;
+    font-weight: bold;
+}
+
+.tarjeta__ver{
+    font-weight: bold;
+    margin-top: 3px;
+}

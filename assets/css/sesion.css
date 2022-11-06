@@ -1,0 +1,34 @@
+.sesion{
+    background: #eee;
+    padding: 20px;
+}
+
+.formulario__sesion{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.sesion__input{
+    width: 95%;
+    padding: 3px 5px;
+    margin: 3px 0;
+}
+
+.formula{
+    text-align: center;
+}
+
+.full{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.todos{
+    height: 50px;
+}
+
+@media (min-width:1200px){
+    .full{
+        width: 100%;
+    }
+}

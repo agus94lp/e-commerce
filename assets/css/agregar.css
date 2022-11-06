@@ -1,0 +1,59 @@
+.agregar{
+    background-color: #ddd;
+    padding: 10px 0 50px 0;
+}
+
+.agr__formulario{
+    text-align: center;
+}
+
+.agr__formu{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ag{
+    width: 100%;
+    padding: 0;
+}
+
+.cien, .area{
+    width: 100%;
+}
+
+form .agr{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.ag{
+    color: #c6c6c6;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #5e5d5d;
+}
+
+.ag:focus{ 
+    outline: none;
+    color: #5e5d5d;
+    border-bottom: 3px solid #2196f3;
+}
+
+label{
+    color: #5e5d5d;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+.ag:focus~label,
+.ag:valid~label, .email:focus{
+    top: -1px;
+    font-size: 13px;
+    color: #2196f3; 
+}

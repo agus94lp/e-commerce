@@ -1,43 +1,118 @@
 footer{
-    background-color: rgb(158, 217, 252);
-
+    background-color: rgb(193, 228, 248);
 }
+
 .contenedor{
-    margin: 10px auto;
-    border: 1px solid black;
+    padding-bottom: 10px;
 }
 
-.bajo{
-    border: 1px solid yellow;
+.cabecera{
     justify-content: center;
+    
+    margin: 5px auto;
 }
 
 .contenido{
-    border: 1px solid red;
     justify-content: center;
+    width: 300px;
+    margin: 5px auto;
 }
 
-.formulario{
-    border: 1px solid blue;
+ul{
+    text-align: center;
+    padding: 0;
 }
 
 ul li{
     list-style: none;
 }
 
+.formulario{
+    width: 400px;
+    margin: 2px auto;
+
+}
+
+
+form .formu_grupo{
+    position: relative;
+    margin: 20px 0;
+    width: 395px;
+}
+
+.input{
+    color: #c6c6c6;
+    font-size: 18px;
+    
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #5e5d5d;
+}
+
+.input:focus{ 
+    outline: none;
+    color: #5e5d5d;
+    border-bottom: 3px solid #2196f3;
+}
+
+label{
+    color: #5e5d5d;
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+}
+
+.input:focus~label,
+.input:valid~label, .email:focus{
+    top: -1px;
+    font-size: 13px;
+    color: #2196f3; 
+}
+
+.contenedor2{
+    margin: 0 auto;
+}
+
+textarea{
+    resize: none;
+    padding: 0;
+}
+
+@media (min-width:678px){
+    footer .contenedor{
+        display: flex;
+    }
+    .cabecera{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:978px){
+    .contenedor2{
+        display: flex;
+        justify-content: center; 
+    }
+    ul{
+        margin-top: 100px;
+    }
+    .cabecera{
+        margin-top: 0px;
+    }
+}
 
 
 .abajo{
     background-color: #fff;
     text-align: center;
-    
 }
 
-.abajo_centrar{
-    border: 1px solid red;
-}
 
 .abajo_descri{
+
+    padding-top: 10px;
     margin-bottom: 0;
 }
 
